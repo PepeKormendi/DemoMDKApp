@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToCustDetailFromTest"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/Customers_Detail.page"
+}

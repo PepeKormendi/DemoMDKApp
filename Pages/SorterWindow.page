@@ -1,0 +1,76 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": false,
+							"_Type": "Control.Type.FormCell.Switch",
+							"_Name": "SwitchDescAsc",
+							"IsVisible": true,
+							"Caption": "Desc/Asc",
+							"OnValueChange": "/DemoSampleApp/Rules/switchEvent.js",
+							"IsEditable": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.Sorter",
+							"_Name": "WCMListSorter",
+							"IsVisible": true,
+							"AllowEmptySelection": true,
+							"Caption": "WorkClearanceDocument asc",
+							"IsEditable": true,
+							"SortByItems": [
+								{
+									"DisplayValue": "Last Name",
+									"ReturnValue": "LastName"
+								},
+								{
+									"DisplayValue": "First Name",
+									"ReturnValue": "FirstName"
+								}
+							]
+						}
+					],
+					"_Name": "FormCellSection0",
+					"Caption": "Filter options:",
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SorterWindow",
+	"Caption": "Filter",
+	"OnLoaded": "/DemoSampleApp/Actions/FilerOnLoad.action",
+	"OnUnloaded": "/DemoSampleApp/Actions/FilterOnUnloaded.action",
+	"OnReturning": "/DemoSampleApp/Actions/FilterOnReturn.action",
+	"OnResume": "/DemoSampleApp/Actions/FilterOnResume.action",
+	"OnCustomEventDataReceived": "/DemoSampleApp/Actions/FilterCustomDatra.action",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "Cancel",
+				"SystemItem": "Cancel",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/DemoSampleApp/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"_Name": "ActionBarItem1",
+				"Caption": "Done",
+				"SystemItem": "Done",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/DemoSampleApp/Rules/TestSorterManipluation.js"
+			}
+		],
+		"_Name": "ActionBar1"
+	},
+	"Result": "/DemoSampleApp/Rules/SetSorterRule.js"
+}

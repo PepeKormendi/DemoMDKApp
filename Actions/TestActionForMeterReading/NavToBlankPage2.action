@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToBlankPage2"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/Blank.page",
+	"PageMetadata": "/DemoSampleApp/Rules/TestForMetereading/PageMetadataNavBlank2.js",
+	"OuterNavigation": true,
+	"NavigationType": "Cross"
+}

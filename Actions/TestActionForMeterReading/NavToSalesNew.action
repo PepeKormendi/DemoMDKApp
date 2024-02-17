@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToSalesNew"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderNew.page",
+	"PageMetadata": "/DemoSampleApp/Rules/TestForMetereading/SalesNewNavMetadata.js",
+	"ClearHistory": true,
+	"NavigationType": "Inner"
+}

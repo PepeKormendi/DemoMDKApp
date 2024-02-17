@@ -1,0 +1,14 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToComment"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/CommentPage.page",
+	"BackStackVisible": true,
+	"ModalPage": true,
+	"ModalPageFullscreen": false,
+	"Transition": {
+		"Curve": "Ease",
+		"Name": "Flip"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToBlankPage"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/Blank.page",
+	"PageMetadata": "/DemoSampleApp/Rules/TestForMetereading/FiBlankPageMetadata.js"
+}

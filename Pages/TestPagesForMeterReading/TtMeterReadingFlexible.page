@@ -1,0 +1,19 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FlexibleColumnLayout",
+			"_Name": "FlexibleColumnLayout0",
+			"StartColumn": {
+				"_Name": "StartColumn",
+				"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/Customers_ListMR.page"
+			},
+			"EndColumn": {
+				"_Name": "EndColumn",
+				"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/Blank.page"
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "TtMeterReadingFlexible",
+	"Caption": "TtMeterReadingFlexible"
+}

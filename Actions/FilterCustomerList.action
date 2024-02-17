@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Filter",
+	"ActionResult": {
+		"_Name": "FilterCustomerList"
+	},
+	"Filterable": "#Page:Customers_List/#Control:SectionedTable0",
+	"PageToOpen": "/DemoSampleApp/Pages/SorterWindow.page",
+	"ModalPageFullscreen": false
+}

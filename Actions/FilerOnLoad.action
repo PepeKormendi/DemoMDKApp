@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Message",
+	"ActionResult": {
+		"_Name": "FilerOnLoad"
+	},
+	"Message": "Filter On Load action"
+}
