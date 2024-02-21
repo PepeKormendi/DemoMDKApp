@@ -73,6 +73,8 @@ let demosampleapp_actions_service_uploadoffline_action = __webpack_require__(/*!
 let demosampleapp_actions_testactionformeterreading_navtoblankpage2_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToBlankPage2.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToBlankPage2.action")
 let demosampleapp_actions_testactionformeterreading_navtoblankpage_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToBlankPage.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToBlankPage.action")
 let demosampleapp_actions_testactionformeterreading_navtocomment_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToComment.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToComment.action")
+let demosampleapp_actions_testactionformeterreading_navtofinalsalesorderitem_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToFinalSalesOrderItem.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToFinalSalesOrderItem.action")
+let demosampleapp_actions_testactionformeterreading_navtogroupedby_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToGroupedBy.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToGroupedBy.action")
 let demosampleapp_actions_testactionformeterreading_navtokeypaircollectionpage_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToKeyPairCollectionPage.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToKeyPairCollectionPage.action")
 let demosampleapp_actions_testactionformeterreading_navtomrlist_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToMRList.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToMRList.action")
 let demosampleapp_actions_testactionformeterreading_navtosalesnew_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToSalesNew.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToSalesNew.action")
@@ -97,18 +99,22 @@ let demosampleapp_pages_testpagesformeterreading_blank_page = __webpack_require_
 let demosampleapp_pages_testpagesformeterreading_commentpage_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/CommentPage.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/CommentPage.page")
 let demosampleapp_pages_testpagesformeterreading_customers_detail_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/Customers_Detail.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/Customers_Detail.page")
 let demosampleapp_pages_testpagesformeterreading_customers_listmr_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/Customers_ListMR.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/Customers_ListMR.page")
+let demosampleapp_pages_testpagesformeterreading_groupedsalesorderheader_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/GroupedSalesOrderHeader.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/GroupedSalesOrderHeader.page")
 let demosampleapp_pages_testpagesformeterreading_meterreadingtemplate2_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate2.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate2.page")
 let demosampleapp_pages_testpagesformeterreading_meterreadingtemplate_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate.page")
+let demosampleapp_pages_testpagesformeterreading_salesitemfinal_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/SalesItemFInal.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesItemFInal.page")
 let demosampleapp_pages_testpagesformeterreading_salesordernew_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderNew.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderNew.page")
 let demosampleapp_pages_testpagesformeterreading_ttmeterreadingflexible_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/TtMeterReadingFlexible.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/TtMeterReadingFlexible.page")
 let demosampleapp_rules_appupdatefailure_js = __webpack_require__(/*! ./DemoSampleApp/Rules/AppUpdateFailure.js */ "./build.definitions/DemoSampleApp/Rules/AppUpdateFailure.js")
 let demosampleapp_rules_appupdatesuccess_js = __webpack_require__(/*! ./DemoSampleApp/Rules/AppUpdateSuccess.js */ "./build.definitions/DemoSampleApp/Rules/AppUpdateSuccess.js")
 let demosampleapp_rules_customers_deleteconfirmation_js = __webpack_require__(/*! ./DemoSampleApp/Rules/Customers_DeleteConfirmation.js */ "./build.definitions/DemoSampleApp/Rules/Customers_DeleteConfirmation.js")
 let demosampleapp_rules_customers_ordercount_js = __webpack_require__(/*! ./DemoSampleApp/Rules/Customers_OrderCount.js */ "./build.definitions/DemoSampleApp/Rules/Customers_OrderCount.js")
+let demosampleapp_rules_dummylink_js = __webpack_require__(/*! ./DemoSampleApp/Rules/dummylink.js */ "./build.definitions/DemoSampleApp/Rules/dummylink.js")
 let demosampleapp_rules_emailvalidation_js = __webpack_require__(/*! ./DemoSampleApp/Rules/EmailValidation.js */ "./build.definitions/DemoSampleApp/Rules/EmailValidation.js")
 let demosampleapp_rules_errorarchive_errorarchive_checkforsyncerror_js = __webpack_require__(/*! ./DemoSampleApp/Rules/ErrorArchive/ErrorArchive_CheckForSyncError.js */ "./build.definitions/DemoSampleApp/Rules/ErrorArchive/ErrorArchive_CheckForSyncError.js")
 let demosampleapp_rules_fillcustomerobjectawait_js = __webpack_require__(/*! ./DemoSampleApp/Rules/FillCustomerObjectAwait.js */ "./build.definitions/DemoSampleApp/Rules/FillCustomerObjectAwait.js")
 let demosampleapp_rules_fillcustomobject_js = __webpack_require__(/*! ./DemoSampleApp/Rules/FillCustomObject.js */ "./build.definitions/DemoSampleApp/Rules/FillCustomObject.js")
+let demosampleapp_rules_navtofinal_js = __webpack_require__(/*! ./DemoSampleApp/Rules/NavToFinal.js */ "./build.definitions/DemoSampleApp/Rules/NavToFinal.js")
 let demosampleapp_rules_onwillupdate_js = __webpack_require__(/*! ./DemoSampleApp/Rules/OnWillUpdate.js */ "./build.definitions/DemoSampleApp/Rules/OnWillUpdate.js")
 let demosampleapp_rules_resetappsettingsandlogout_js = __webpack_require__(/*! ./DemoSampleApp/Rules/ResetAppSettingsAndLogout.js */ "./build.definitions/DemoSampleApp/Rules/ResetAppSettingsAndLogout.js")
 let demosampleapp_rules_setlastnamareturn_js = __webpack_require__(/*! ./DemoSampleApp/Rules/SetLastNamaReturn.js */ "./build.definitions/DemoSampleApp/Rules/SetLastNamaReturn.js")
@@ -117,6 +123,7 @@ let demosampleapp_rules_setsortorder_js = __webpack_require__(/*! ./DemoSampleAp
 let demosampleapp_rules_switchevent_js = __webpack_require__(/*! ./DemoSampleApp/Rules/switchEvent.js */ "./build.definitions/DemoSampleApp/Rules/switchEvent.js")
 let demosampleapp_rules_testformetereading_barcodenavmetadata_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/BarcodeNavMetadata.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/BarcodeNavMetadata.js")
 let demosampleapp_rules_testformetereading_commentvaluetest_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/CommentValueTest.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/CommentValueTest.js")
+let demosampleapp_rules_testformetereading_creategroupedentityset_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/CreateGroupedEntitySet.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/CreateGroupedEntitySet.js")
 let demosampleapp_rules_testformetereading_fiblankpagemetadata_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/FiBlankPageMetadata.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/FiBlankPageMetadata.js")
 let demosampleapp_rules_testformetereading_fillsalesorderdetailtarget_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js")
 let demosampleapp_rules_testformetereading_filltestcustomer_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/FillTestCustomer.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/FillTestCustomer.js")
@@ -193,6 +200,8 @@ module.exports = {
 	demosampleapp_actions_testactionformeterreading_navtoblankpage2_action : demosampleapp_actions_testactionformeterreading_navtoblankpage2_action,
 	demosampleapp_actions_testactionformeterreading_navtoblankpage_action : demosampleapp_actions_testactionformeterreading_navtoblankpage_action,
 	demosampleapp_actions_testactionformeterreading_navtocomment_action : demosampleapp_actions_testactionformeterreading_navtocomment_action,
+	demosampleapp_actions_testactionformeterreading_navtofinalsalesorderitem_action : demosampleapp_actions_testactionformeterreading_navtofinalsalesorderitem_action,
+	demosampleapp_actions_testactionformeterreading_navtogroupedby_action : demosampleapp_actions_testactionformeterreading_navtogroupedby_action,
 	demosampleapp_actions_testactionformeterreading_navtokeypaircollectionpage_action : demosampleapp_actions_testactionformeterreading_navtokeypaircollectionpage_action,
 	demosampleapp_actions_testactionformeterreading_navtomrlist_action : demosampleapp_actions_testactionformeterreading_navtomrlist_action,
 	demosampleapp_actions_testactionformeterreading_navtosalesnew_action : demosampleapp_actions_testactionformeterreading_navtosalesnew_action,
@@ -217,18 +226,22 @@ module.exports = {
 	demosampleapp_pages_testpagesformeterreading_commentpage_page : demosampleapp_pages_testpagesformeterreading_commentpage_page,
 	demosampleapp_pages_testpagesformeterreading_customers_detail_page : demosampleapp_pages_testpagesformeterreading_customers_detail_page,
 	demosampleapp_pages_testpagesformeterreading_customers_listmr_page : demosampleapp_pages_testpagesformeterreading_customers_listmr_page,
+	demosampleapp_pages_testpagesformeterreading_groupedsalesorderheader_page : demosampleapp_pages_testpagesformeterreading_groupedsalesorderheader_page,
 	demosampleapp_pages_testpagesformeterreading_meterreadingtemplate2_page : demosampleapp_pages_testpagesformeterreading_meterreadingtemplate2_page,
 	demosampleapp_pages_testpagesformeterreading_meterreadingtemplate_page : demosampleapp_pages_testpagesformeterreading_meterreadingtemplate_page,
+	demosampleapp_pages_testpagesformeterreading_salesitemfinal_page : demosampleapp_pages_testpagesformeterreading_salesitemfinal_page,
 	demosampleapp_pages_testpagesformeterreading_salesordernew_page : demosampleapp_pages_testpagesformeterreading_salesordernew_page,
 	demosampleapp_pages_testpagesformeterreading_ttmeterreadingflexible_page : demosampleapp_pages_testpagesformeterreading_ttmeterreadingflexible_page,
 	demosampleapp_rules_appupdatefailure_js : demosampleapp_rules_appupdatefailure_js,
 	demosampleapp_rules_appupdatesuccess_js : demosampleapp_rules_appupdatesuccess_js,
 	demosampleapp_rules_customers_deleteconfirmation_js : demosampleapp_rules_customers_deleteconfirmation_js,
 	demosampleapp_rules_customers_ordercount_js : demosampleapp_rules_customers_ordercount_js,
+	demosampleapp_rules_dummylink_js : demosampleapp_rules_dummylink_js,
 	demosampleapp_rules_emailvalidation_js : demosampleapp_rules_emailvalidation_js,
 	demosampleapp_rules_errorarchive_errorarchive_checkforsyncerror_js : demosampleapp_rules_errorarchive_errorarchive_checkforsyncerror_js,
 	demosampleapp_rules_fillcustomerobjectawait_js : demosampleapp_rules_fillcustomerobjectawait_js,
 	demosampleapp_rules_fillcustomobject_js : demosampleapp_rules_fillcustomobject_js,
+	demosampleapp_rules_navtofinal_js : demosampleapp_rules_navtofinal_js,
 	demosampleapp_rules_onwillupdate_js : demosampleapp_rules_onwillupdate_js,
 	demosampleapp_rules_resetappsettingsandlogout_js : demosampleapp_rules_resetappsettingsandlogout_js,
 	demosampleapp_rules_setlastnamareturn_js : demosampleapp_rules_setlastnamareturn_js,
@@ -237,6 +250,7 @@ module.exports = {
 	demosampleapp_rules_switchevent_js : demosampleapp_rules_switchevent_js,
 	demosampleapp_rules_testformetereading_barcodenavmetadata_js : demosampleapp_rules_testformetereading_barcodenavmetadata_js,
 	demosampleapp_rules_testformetereading_commentvaluetest_js : demosampleapp_rules_testformetereading_commentvaluetest_js,
+	demosampleapp_rules_testformetereading_creategroupedentityset_js : demosampleapp_rules_testformetereading_creategroupedentityset_js,
 	demosampleapp_rules_testformetereading_fiblankpagemetadata_js : demosampleapp_rules_testformetereading_fiblankpagemetadata_js,
 	demosampleapp_rules_testformetereading_fillsalesorderdetailtarget_js : demosampleapp_rules_testformetereading_fillsalesorderdetailtarget_js,
 	demosampleapp_rules_testformetereading_filltestcustomer_js : demosampleapp_rules_testformetereading_filltestcustomer_js,
@@ -574,6 +588,28 @@ async function FillCustomerObjectAwait(clientAPI) {
 
 /***/ }),
 
+/***/ "./build.definitions/DemoSampleApp/Rules/NavToFinal.js":
+/*!*************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Rules/NavToFinal.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ NavToFinal)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+function NavToFinal(clientAPI) {
+  clientAPI.getPageProxy().setActionBinding(clientAPI.getPageProxy().getActionBinding());
+  return clientAPI.executeAction('/DemoSampleApp/Actions/TestActionForMeterReading/NavToFinalSalesOrderItem.action');
+}
+
+/***/ }),
+
 /***/ "./build.definitions/DemoSampleApp/Rules/OnWillUpdate.js":
 /*!***************************************************************!*\
   !*** ./build.definitions/DemoSampleApp/Rules/OnWillUpdate.js ***!
@@ -767,6 +803,32 @@ function CommentValueTest(clientAPI) {
 
 /***/ }),
 
+/***/ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/CreateGroupedEntitySet.js":
+/*!********************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Rules/TestForMetereading/CreateGroupedEntitySet.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CreateGroupedEntitySet)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+async function CreateGroupedEntitySet(clientAPI) {
+  let dummy = "dummy";
+  const readPromise = clientAPI.read('/DemoSampleApp/Services/SampleServiceV2.service', 'SalesOrderItems', [], queryOptons);
+  // For test in order to get all the items no matter how many SalesOrder the customer has got:
+  //const readPromise = clientAPI.read('/DemoSampleApp/Services/SampleServiceV2.service', 'SalesOrderHeaders', []);
+  const result = await readPromise;
+  const salesItems = result._array;
+}
+
+/***/ }),
+
 /***/ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/FiBlankPageMetadata.js":
 /*!*****************************************************************************************!*\
   !*** ./build.definitions/DemoSampleApp/Rules/TestForMetereading/FiBlankPageMetadata.js ***!
@@ -861,8 +923,20 @@ __webpack_require__.r(__webpack_exports__);
  * Describe this function...
  * @param {IClientAPI} clientAPI
  */
-function FillSalesOrderDetailTarget(clientAPI) {
-  return clientAPI.binding;
+async function FillSalesOrderDetailTarget(clientAPI) {
+  let queryOptions = `$orderby=SalesOrderId asc`;
+  const readPromise = clientAPI.read('/DemoSampleApp/Services/SampleServiceV2.service', 'SalesOrderItems', [], queryOptions);
+  const result = await readPromise;
+  const salesItems = result._array;
+  const firstItems = [];
+  let id = "";
+  salesItems.forEach(item => {
+    if (item.SalesOrderId != id) {
+      firstItems.push(item);
+    }
+    id = item.SalesOrderId;
+  });
+  return firstItems;
 }
 
 /***/ }),
@@ -905,7 +979,8 @@ __webpack_require__.r(__webpack_exports__);
  */
 function NavToSalesOrder(clientAPI) {
   let salesOrderId = clientAPI.getPageProxy().getPressedItem()._controlView.offsetParent.childNodes[0].innerText.slice(15);
-  let filtered = clientAPI.binding.SalesOrders.filter(row => row.SalesOrderId == salesOrderId);
+  let itemKey = clientAPI.getPageProxy().getPressedItem()._controlView.offsetParent.offsetParent.childNodes[0].childNodes[0].ownerElement._state.placeholder;
+  let filtered = clientAPI.binding.SalesOrders.filter(row => row.SalesOrderId == itemKey);
   clientAPI.getPageProxy().setActionBinding(filtered);
   clientAPI.executeAction('/DemoSampleApp/Actions/TestActionForMeterReading/NavToSalesNew.action');
 }
@@ -952,8 +1027,10 @@ async function PageMetadataNavBlank2(clientAPI) {
     sectionTemplate._Name = `SectionKeyValue${index}`;
     sectionTemplate.Target.EntitySet = `SalesOrderHeaders('${order.SalesOrderId}')`;
     sectionTemplate.Target.ReadLink = `SalesOrderHeaders('${order.SalesOrderId}')`;
+    sectionFormCell.Controls[0].PlaceHolder = order.SalesOrderId;
     if (index === 0) {
       blankPage.Controls[0].Sections[0] = JSON.parse(JSON.stringify(sectionTemplate));
+      blankPage.Controls[0].Sections[1] = JSON.parse(JSON.stringify(sectionFormCell));
     } else {
       blankPage.Controls[0].Sections.push(JSON.parse(JSON.stringify(sectionTemplate)));
       blankPage.Controls[0].Sections.push(JSON.parse(JSON.stringify(sectionFormCell)));
@@ -1096,6 +1173,25 @@ function TestSorterManipluation(clientAPI) {
 
 /***/ }),
 
+/***/ "./build.definitions/DemoSampleApp/Rules/dummylink.js":
+/*!************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Rules/dummylink.js ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ dummylink)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+function dummylink(clientAPI) {}
+
+/***/ }),
+
 /***/ "./build.definitions/DemoSampleApp/Rules/switchEvent.js":
 /*!**************************************************************!*\
   !*** ./build.definitions/DemoSampleApp/Rules/switchEvent.js ***!
@@ -1159,7 +1255,10 @@ div.MDKPage
 
 { color: @mdkYellow1; background-color: @mdkRed1; }
 */
-`, "",{"version":3,"sources":["webpack://./build.definitions/DemoSampleApp/Styles/Styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n"],"sourceRoot":""}]);
+.link {
+  color: #fffffe;
+}
+`, "",{"version":3,"sources":["webpack://./build.definitions/DemoSampleApp/Styles/Styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC;AACD;EACE,cAAc;AAChB","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n.link {\n  color: #fffffe;\n}\n"],"sourceRoot":""}]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -1197,7 +1296,12 @@ Page
 .MyButton
 
 { color: @mdkYellow1; background-color: @mdkRed1; }
-*/`, "",{"version":3,"sources":["webpack://./build.definitions/DemoSampleApp/Styles/Styles.less"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/"],"sourceRoot":""}]);
+*/
+@mdkWhite: #fffffe;
+
+.link {
+    color: @mdkWhite;
+  }`, "",{"version":3,"sources":["webpack://./build.definitions/DemoSampleApp/Styles/Styles.less"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC;AACD,kBAAkB;;AAElB;IACI,gBAAgB;EAClB","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n@mdkWhite: #fffffe;\n\n.link {\n    color: @mdkWhite;\n  }"],"sourceRoot":""}]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -1215,7 +1319,11 @@ var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../managed-content/vscode/unzipped/25__ext-mdkvsc-npm-rel___mde-vscweb@4.1.11/extension/node_modules/css-loader/dist/runtime/api.js */ "../../managed-content/vscode/unzipped/25__ext-mdkvsc-npm-rel___mde-vscweb@4.1.11/extension/node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `@mdkWhite: #fffffe;
+link {
+	font-color: #fffffe;
+}
+`, "",{"version":3,"sources":["webpack://./build.definitions/DemoSampleApp/Styles/Styles.nss"],"names":[],"mappings":"AAAA,kBAAkB;AAClB;CACC,mBAAmB;AACpB","sourcesContent":["@mdkWhite: #fffffe;\nlink {\n\tfont-color: #fffffe;\n}\n"],"sourceRoot":""}]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -1903,6 +2011,26 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 
 /***/ }),
 
+/***/ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToFinalSalesOrderItem.action":
+/*!***********************************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToFinalSalesOrderItem.action ***!
+  \***********************************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToFinalSalesOrderItem"},"PageToOpen":"/DemoSampleApp/Pages/TestPagesForMeterReading/SalesItemFInal.page"}
+
+/***/ }),
+
+/***/ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToGroupedBy.action":
+/*!*************************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToGroupedBy.action ***!
+  \*************************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToGroupedBy"},"PageToOpen":"/DemoSampleApp/Pages/TestPagesForMeterReading/GroupedSalesOrderHeader.page"}
+
+/***/ }),
+
 /***/ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToKeyPairCollectionPage.action":
 /*!*************************************************************************************************************!*\
   !*** ./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToKeyPairCollectionPage.action ***!
@@ -2059,7 +2187,7 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
   \*********************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable0","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Name":"SectionButton0","Title":"Customers","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/DemoSampleApp/Actions/NavToCustomers_List.action"},{"_Name":"SectionButton1","Title":"MeterReadingTemplates","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://fridge","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/DemoSampleApp/Actions/TestActionForMeterReading/NavToMRList.action"},{"_Name":"SectionButton2","Title":"Button","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"res://mdk_logo.png","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestMRFlexible.action"}]}]}],"_Type":"Page","_Name":"Main","Caption":"Main","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"Save Model","Icon":"sap-icon://save","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/DemoSampleApp/Rules/FillCustomObject.js"}],"_Name":"ActionBar1"},"ToolBar":{"Items":[{"_Type":"Control.Type.ToolbarItem","_Name":"LogoutToolbarItem","Caption":"Logout","Enabled":true,"Visible":true,"Clickable":true,"OnPress":"/DemoSampleApp/Actions/LogoutMessage.action"},{"_Type":"Control.Type.ToolbarItem","_Name":"UploadToolbarItem","Caption":"Sync","Enabled":true,"Visible":"$(PLT,true,true,false)","Clickable":true,"OnPress":"/DemoSampleApp/Actions/Service/SyncStartedMessage.action"},{"_Type":"Control.Type.ToolbarItem","_Name":"UpdateToolbarItem","Caption":"Update","Enabled":true,"Visible":"$(PLT,true,true,false)","Clickable":true,"OnPress":"/DemoSampleApp/Actions/AppUpdateProgressBanner.action"},{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem0","Caption":"Upload Logs","Enabled":true,"Visible":"$(PLT,true,true,false)","Clickable":true,"Style":"","OnPress":"/DemoSampleApp/Actions/LogUpload.action"}]}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable0","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Name":"SectionButton0","Title":"Customers","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/DemoSampleApp/Actions/NavToCustomers_List.action"},{"_Name":"SectionButton1","Title":"MeterReadingTemplates","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://fridge","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/DemoSampleApp/Actions/TestActionForMeterReading/NavToMRList.action"},{"_Name":"SectionButton2","Title":"Button","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"res://mdk_logo.png","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestMRFlexible.action"},{"_Name":"SectionButton3","Title":"Groupedby","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"res://mdk_logo.png","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/DemoSampleApp/Actions/TestActionForMeterReading/NavToGroupedBy.action"}]}]}],"_Type":"Page","_Name":"Main","Caption":"Main","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"Save Model","Icon":"sap-icon://save","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/DemoSampleApp/Rules/FillCustomObject.js"}],"_Name":"ActionBar1"},"ToolBar":{"Items":[{"_Type":"Control.Type.ToolbarItem","_Name":"LogoutToolbarItem","Caption":"Logout","Enabled":true,"Visible":true,"Clickable":true,"OnPress":"/DemoSampleApp/Actions/LogoutMessage.action"},{"_Type":"Control.Type.ToolbarItem","_Name":"UploadToolbarItem","Caption":"Sync","Enabled":true,"Visible":"$(PLT,true,true,false)","Clickable":true,"OnPress":"/DemoSampleApp/Actions/Service/SyncStartedMessage.action"},{"_Type":"Control.Type.ToolbarItem","_Name":"UpdateToolbarItem","Caption":"Update","Enabled":true,"Visible":"$(PLT,true,true,false)","Clickable":true,"OnPress":"/DemoSampleApp/Actions/AppUpdateProgressBanner.action"},{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem0","Caption":"Upload Logs","Enabled":true,"Visible":"$(PLT,true,true,false)","Clickable":true,"Style":"","OnPress":"/DemoSampleApp/Actions/LogUpload.action"}]}}
 
 /***/ }),
 
@@ -2133,6 +2261,16 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
 
 /***/ }),
 
+/***/ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/GroupedSalesOrderHeader.page":
+/*!*****************************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/GroupedSalesOrderHeader.page ***!
+  \*****************************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.SimplePropertyCollection","Target":"/DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js","_Name":"SectionSimplePropertyCollection0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"SimplePropertyCell":{"KeyName":"{SalesOrderId}","Value":"{ItemNumber}","AccessoryType":"DisclosureIndicator","OnPress":"/DemoSampleApp/Rules/NavToFinal.js"},"Layout":{"NumberOfColumns":1}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"GroupedSalesOrderHeader","Caption":"GroupedSalesOrderHeader","PrefersLargeCaption":true}
+
+/***/ }),
+
 /***/ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate.page":
 /*!**************************************************************************************************!*\
   !*** ./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate.page ***!
@@ -2149,7 +2287,17 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
   \***************************************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":false,"HeaderSeparator":false,"FooterSeparator":false,"ControlSeparator":true},"KeyAndValues":[{"Value":"{SalesOrderId}","_Name":"KeyValue0","KeyName":"SalesOrder Id:","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/NavToSalesOrder.js"},{"Value":"{CustomerId}","_Name":"KeyValue1","KeyName":"Customer Id:","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/TestCallNavToCustomerDetail.js"},{"Value":"{NetAmount}","_Name":"KeyValue2","KeyName":"Net Amount:","Visible":true},{"Value":"{TaxAmount}","_Name":"KeyValue3","KeyName":"Tax Amount","Visible":true},{"Value":"{GrossAmount}","_Name":"KeyValue4","KeyName":"Gross Amount","Visible":true},{"Value":"{CurrencyCode}","_Name":"KeyValue5","KeyName":"Currency Code:","Visible":true},{"Value":"You can add Comment here","_Name":"KeyValue6","KeyName":"Comment:","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/BarcodeNavMetadata.js"},{"Value":"{SalesOrderId}","_Name":"KeyValue7","KeyName":"KeyName","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/TestMoreParameter.js"}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","Target":{"Service":"/DemoSampleApp/Services/SampleServiceV2.service","EntitySet":"SalesOrderHeaders","ReadLink":""},"_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":1}},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty0","IsVisible":true,"Separator":true,"Caption":"New Meter Reading","PlaceHolder":"type meter reading here","KeyboardType":"Number","AlternateInput":"Barcode","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.Title","_Name":"FormCellTitle0","IsVisible":true,"Separator":true,"Value":"","PlaceHolder":"meter reading option 2","Enabled":true,"IsEditable":true}],"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"MeterReadingTemplate2","Caption":"MeterReadingTemplate2","PrefersLargeCaption":true,"ToolBar":{"Items":[{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem0","Caption":"ToolbarItem","Enabled":true,"Visible":true,"Clickable":true,"Style":""},{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem1","Caption":"ToolbarItem","Enabled":true,"Visible":true,"Clickable":true,"Style":""},{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem2","Caption":"ToolbarItem","Enabled":true,"Visible":true,"Clickable":true,"Style":""}]}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":false,"HeaderSeparator":false,"FooterSeparator":false,"ControlSeparator":true},"KeyAndValues":[{"Value":"{SalesOrderId}","_Name":"KeyValue8","KeyName":"Key","Visible":false,"OnPress":"/DemoSampleApp/Rules/dummylink.js","LinkColor":"link"},{"Value":"{SalesOrderId}","_Name":"KeyValue0","KeyName":"SalesOrder Id:","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/NavToSalesOrder.js"},{"Value":"{CustomerId}","_Name":"KeyValue1","KeyName":"Customer Id:","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/TestCallNavToCustomerDetail.js"},{"Value":"{NetAmount}","_Name":"KeyValue2","KeyName":"Net Amount:","Visible":true},{"Value":"{TaxAmount}","_Name":"KeyValue3","KeyName":"Tax Amount","Visible":true},{"Value":"{GrossAmount}","_Name":"KeyValue4","KeyName":"Gross Amount","Visible":true},{"Value":"{CurrencyCode}","_Name":"KeyValue5","KeyName":"Currency Code:","Visible":true},{"Value":"You can add Comment here","_Name":"KeyValue6","KeyName":"Comment:","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/BarcodeNavMetadata.js"},{"Value":"{SalesOrderId}","_Name":"KeyValue7","KeyName":"KeyName","Visible":true,"OnPress":"/DemoSampleApp/Rules/TestForMetereading/TestMoreParameter.js"}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","Target":{"Service":"/DemoSampleApp/Services/SampleServiceV2.service","EntitySet":"SalesOrderHeaders","ReadLink":""},"_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":1}},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty1","IsVisible":false,"Separator":true,"Caption":"Caption","PlaceHolder":"3333333333","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty0","IsVisible":true,"Separator":true,"Caption":"New Meter Reading","PlaceHolder":"type meter reading here","KeyboardType":"Number","AlternateInput":"Barcode","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.Title","_Name":"FormCellTitle0","IsVisible":true,"Separator":true,"Value":"","PlaceHolder":"meter reading option 2","Enabled":true,"IsEditable":true}],"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"MeterReadingTemplate2","Caption":"MeterReadingTemplate2","PrefersLargeCaption":true,"ToolBar":{"Items":[{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem0","Caption":"ToolbarItem","Enabled":true,"Visible":true,"Clickable":true,"Style":""},{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem1","Caption":"ToolbarItem","Enabled":true,"Visible":true,"Clickable":true,"Style":""},{"_Type":"Control.Type.ToolbarItem","_Name":"ToolbarItem2","Caption":"ToolbarItem","Enabled":true,"Visible":true,"Clickable":true,"Style":""}]}}
+
+/***/ }),
+
+/***/ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesItemFInal.page":
+/*!********************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesItemFInal.page ***!
+  \********************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.SimplePropertyCollection","Target":{"Service":"/DemoSampleApp/Services/SampleServiceV2.service","EntitySet":"SalesOrderItems","QueryOptions":"$filter=SalesOrderId eq '{SalesOrderId}'"},"_Name":"SectionSimplePropertyCollection0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"SimplePropertyCell":{"KeyName":"{SalesOrderId}","Value":"{ItemNumber}","AccessoryType":"DisclosureIndicator"},"Layout":{"NumberOfColumns":1}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"SalesItemFInal","Caption":"SalesItemFInal","PrefersLargeCaption":true}
 
 /***/ }),
 
@@ -2159,7 +2307,7 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
   \*******************************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.KeyValue","Target":"/DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{SalesOrderId}","_Name":"KeyValue0","KeyName":"Sales Order Id","Visible":true}],"MaxItemCount":1,"Layout":{"NumberOfColumns":2}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"SalesOrderNew","Caption":"SalesOrderNew","PrefersLargeCaption":true}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{SalesOrderId}","_Name":"KeyValue0","KeyName":"Sales Order Id","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","Target":"/DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":1}}]}],"_Type":"Page","_Name":"SalesOrderNew","Caption":"SalesOrderNew","PrefersLargeCaption":true}
 
 /***/ }),
 
@@ -2191,7 +2339,7 @@ module.exports = "1.1\n";
 /***/ ((module) => {
 
 "use strict";
-module.exports = {};
+module.exports = JSON.parse('{"link":{"font-color":"#fffffe"}}');
 
 /***/ }),
 

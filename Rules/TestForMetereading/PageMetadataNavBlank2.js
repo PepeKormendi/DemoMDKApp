@@ -29,9 +29,11 @@ export default async function PageMetadataNavBlank2(clientAPI) {
         sectionTemplate._Name = `SectionKeyValue${index}`;
         sectionTemplate.Target.EntitySet = `SalesOrderHeaders('${order.SalesOrderId}')`;
         sectionTemplate.Target.ReadLink = `SalesOrderHeaders('${order.SalesOrderId}')`;
+        sectionFormCell.Controls[0].PlaceHolder = order.SalesOrderId;
 
         if (index === 0) {
             blankPage.Controls[0].Sections[0] = JSON.parse(JSON.stringify(sectionTemplate));
+            blankPage.Controls[0].Sections[1] = JSON.parse(JSON.stringify(sectionFormCell));
         }
         else {
             blankPage.Controls[0].Sections.push(JSON.parse(JSON.stringify(sectionTemplate)));

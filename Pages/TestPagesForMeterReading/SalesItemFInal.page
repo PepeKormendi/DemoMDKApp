@@ -1,0 +1,46 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.SimplePropertyCollection",
+					"Target": {
+						"Service": "/DemoSampleApp/Services/SampleServiceV2.service",
+						"EntitySet": "SalesOrderItems",
+						"QueryOptions": "$filter=SalesOrderId eq '{SalesOrderId}'"
+					},
+					"_Name": "SectionSimplePropertyCollection0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"SimplePropertyCell": {
+						"KeyName": "{SalesOrderId}",
+						"Value": "{ItemNumber}",
+						"AccessoryType": "DisclosureIndicator"
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				}
+			],
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SalesItemFInal",
+	"Caption": "SalesItemFInal",
+	"PrefersLargeCaption": true
+}

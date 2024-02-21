@@ -19,6 +19,14 @@
 					"KeyAndValues": [
 						{
 							"Value": "{SalesOrderId}",
+							"_Name": "KeyValue8",
+							"KeyName": "Key",
+							"Visible": false,
+							"OnPress": "/DemoSampleApp/Rules/dummylink.js",
+							"LinkColor": "link"
+						},
+						{
+							"Value": "{SalesOrderId}",
 							"_Name": "KeyValue0",
 							"KeyName": "SalesOrder Id:",
 							"Visible": true,
@@ -95,6 +103,16 @@
 						"ControlSeparator": true
 					},
 					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty1",
+							"IsVisible": false,
+							"Separator": true,
+							"Caption": "Caption",
+							"PlaceHolder": "3333333333",
+							"Enabled": true,
+							"IsEditable": true
+						},
 						{
 							"_Type": "Control.Type.FormCell.SimpleProperty",
 							"_Name": "FormCellSimpleProperty0",

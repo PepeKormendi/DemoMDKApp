@@ -1,0 +1,43 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.SimplePropertyCollection",
+					"Target": "/DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js",
+					"_Name": "SectionSimplePropertyCollection0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"SimplePropertyCell": {
+						"KeyName": "{SalesOrderId}",
+						"Value": "{ItemNumber}",
+						"AccessoryType": "DisclosureIndicator",
+						"OnPress": "/DemoSampleApp/Rules/NavToFinal.js"
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				}
+			],
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "GroupedSalesOrderHeader",
+	"Caption": "GroupedSalesOrderHeader",
+	"PrefersLargeCaption": true
+}
