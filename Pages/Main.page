@@ -28,19 +28,6 @@
 					},
 					"Buttons": [
 						{
-							"_Name": "SectionButton0",
-							"Title": "Customers",
-							"Alignment": "Center",
-							"ButtonType": "Text",
-							"Semantic": "Tint",
-							"Image": "sap-icon://customer",
-							"ImagePosition": "Leading",
-							"FullWidth": false,
-							"Visible": true,
-							"Enabled": true,
-							"OnPress": "/DemoSampleApp/Actions/NavToCustomers_List.action"
-						},
-						{
 							"_Name": "SectionButton1",
 							"Title": "MeterReadingTemplates",
 							"Alignment": "Center",
@@ -52,32 +39,6 @@
 							"Visible": true,
 							"Enabled": true,
 							"OnPress": "/DemoSampleApp/Actions/TestActionForMeterReading/NavToMRList.action"
-						},
-						{
-							"_Name": "SectionButton2",
-							"Title": "Button",
-							"Alignment": "Center",
-							"ButtonType": "Text",
-							"Semantic": "Tint",
-							"Image": "res://mdk_logo.png",
-							"ImagePosition": "Leading",
-							"FullWidth": false,
-							"Visible": true,
-							"Enabled": true,
-							"OnPress": "/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestMRFlexible.action"
-						},
-						{
-							"_Name": "SectionButton3",
-							"Title": "Groupedby",
-							"Alignment": "Center",
-							"ButtonType": "Text",
-							"Semantic": "Tint",
-							"Image": "res://mdk_logo.png",
-							"ImagePosition": "Leading",
-							"FullWidth": false,
-							"Visible": true,
-							"Enabled": true,
-							"OnPress": "/DemoSampleApp/Actions/TestActionForMeterReading/NavToGroupedBy.action"
 						}
 					]
 				}
