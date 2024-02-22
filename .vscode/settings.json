@@ -5,7 +5,10 @@
         },
         "right": {
             "visible": true,
-            "width": 792
+            "width": 385
         }
+    },
+    "mdk.i18n": {
+        "displayLanguages": "i18n"
     }
 }
