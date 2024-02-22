@@ -2139,7 +2139,7 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
   \****************************************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToTestSalesDet"},"PageToOpen":"/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page","PageMetadata":"/DemoSampleApp/Rules/TestForMetereading/MetadatacheckDetail.js"}
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToTestSalesDet"},"PageToOpen":"/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page"}
 
 /***/ }),
 
