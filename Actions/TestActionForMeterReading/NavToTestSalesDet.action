@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToTestSalesDet"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page"
+}

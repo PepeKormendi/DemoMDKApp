@@ -7,6 +7,6 @@ export default function NavToSalesOrder(clientAPI) {
     let itemKey = clientAPI.getPageProxy().getPressedItem()._controlView.offsetParent.offsetParent.childNodes[0].childNodes[0].ownerElement._state.placeholder;
     let filtered = clientAPI.binding.SalesOrders.filter(row => row.SalesOrderId == itemKey);
     clientAPI.getPageProxy().setActionBinding(filtered);
-    clientAPI.executeAction('/DemoSampleApp/Actions/TestActionForMeterReading/NavToSalesNew.action');
+    clientAPI.executeAction('/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestSalesDet.action');
 
 }

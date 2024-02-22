@@ -79,6 +79,7 @@ let demosampleapp_actions_testactionformeterreading_navtokeypaircollectionpage_a
 let demosampleapp_actions_testactionformeterreading_navtomrlist_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToMRList.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToMRList.action")
 let demosampleapp_actions_testactionformeterreading_navtosalesnew_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToSalesNew.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToSalesNew.action")
 let demosampleapp_actions_testactionformeterreading_navtotestmrflexible_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToTestMRFlexible.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestMRFlexible.action")
+let demosampleapp_actions_testactionformeterreading_navtotestsalesdet_action = __webpack_require__(/*! ./DemoSampleApp/Actions/TestActionForMeterReading/NavToTestSalesDet.action */ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestSalesDet.action")
 let demosampleapp_actions_updatecustomerentityfailuremessage_action = __webpack_require__(/*! ./DemoSampleApp/Actions/UpdateCustomerEntityFailureMessage.action */ "./build.definitions/DemoSampleApp/Actions/UpdateCustomerEntityFailureMessage.action")
 let demosampleapp_actions_validationfailure_action = __webpack_require__(/*! ./DemoSampleApp/Actions/ValidationFailure.action */ "./build.definitions/DemoSampleApp/Actions/ValidationFailure.action")
 let demosampleapp_globals_appdefinition_version_global = __webpack_require__(/*! ./DemoSampleApp/Globals/AppDefinition_Version.global */ "./build.definitions/DemoSampleApp/Globals/AppDefinition_Version.global")
@@ -104,6 +105,7 @@ let demosampleapp_pages_testpagesformeterreading_groupedsalesorderheader_page = 
 let demosampleapp_pages_testpagesformeterreading_meterreadingtemplate2_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate2.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate2.page")
 let demosampleapp_pages_testpagesformeterreading_meterreadingtemplate_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/MeterReadingTemplate.page")
 let demosampleapp_pages_testpagesformeterreading_salesitemfinal_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/SalesItemFInal.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesItemFInal.page")
+let demosampleapp_pages_testpagesformeterreading_salesorderdetnew_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page")
 let demosampleapp_pages_testpagesformeterreading_salesordernew_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderNew.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderNew.page")
 let demosampleapp_pages_testpagesformeterreading_ttmeterreadingflexible_page = __webpack_require__(/*! ./DemoSampleApp/Pages/TestPagesForMeterReading/TtMeterReadingFlexible.page */ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/TtMeterReadingFlexible.page")
 let demosampleapp_rules_appupdatefailure_js = __webpack_require__(/*! ./DemoSampleApp/Rules/AppUpdateFailure.js */ "./build.definitions/DemoSampleApp/Rules/AppUpdateFailure.js")
@@ -128,6 +130,7 @@ let demosampleapp_rules_testformetereading_creategroupedentityset_js = __webpack
 let demosampleapp_rules_testformetereading_fiblankpagemetadata_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/FiBlankPageMetadata.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/FiBlankPageMetadata.js")
 let demosampleapp_rules_testformetereading_fillsalesorderdetailtarget_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/FillSalesOrderDetailTarget.js")
 let demosampleapp_rules_testformetereading_filltestcustomer_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/FillTestCustomer.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/FillTestCustomer.js")
+let demosampleapp_rules_testformetereading_metadatacheckdetail_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/MetadatacheckDetail.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/MetadatacheckDetail.js")
 let demosampleapp_rules_testformetereading_navtosalesorder_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/NavToSalesOrder.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/NavToSalesOrder.js")
 let demosampleapp_rules_testformetereading_pagemetadatanavblank2_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/PageMetadataNavBlank2.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/PageMetadataNavBlank2.js")
 let demosampleapp_rules_testformetereading_readlinkfiller_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/ReadLinkFiller.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/ReadLinkFiller.js")
@@ -135,6 +138,7 @@ let demosampleapp_rules_testformetereading_salesnewnavmetadata_js = __webpack_re
 let demosampleapp_rules_testformetereading_testcallnavtocustomerdetail_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/TestCallNavToCustomerDetail.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/TestCallNavToCustomerDetail.js")
 let demosampleapp_rules_testformetereading_testmoreparameter_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/TestMoreParameter.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/TestMoreParameter.js")
 let demosampleapp_rules_testformetereading_testrulecustomlist_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/TestRuleCustomList.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/TestRuleCustomList.js")
+let demosampleapp_rules_testformetereading_trytofillsectiontarget_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestForMetereading/TryToFillSectionTarget.js */ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/TryToFillSectionTarget.js")
 let demosampleapp_rules_testsortermanipluation_js = __webpack_require__(/*! ./DemoSampleApp/Rules/TestSorterManipluation.js */ "./build.definitions/DemoSampleApp/Rules/TestSorterManipluation.js")
 let demosampleapp_services_sampleservicev2_service = __webpack_require__(/*! ./DemoSampleApp/Services/SampleServiceV2.service */ "./build.definitions/DemoSampleApp/Services/SampleServiceV2.service")
 let demosampleapp_styles_styles_css = __webpack_require__(/*! ./DemoSampleApp/Styles/Styles.css */ "./build.definitions/DemoSampleApp/Styles/Styles.css")
@@ -207,6 +211,7 @@ module.exports = {
 	demosampleapp_actions_testactionformeterreading_navtomrlist_action : demosampleapp_actions_testactionformeterreading_navtomrlist_action,
 	demosampleapp_actions_testactionformeterreading_navtosalesnew_action : demosampleapp_actions_testactionformeterreading_navtosalesnew_action,
 	demosampleapp_actions_testactionformeterreading_navtotestmrflexible_action : demosampleapp_actions_testactionformeterreading_navtotestmrflexible_action,
+	demosampleapp_actions_testactionformeterreading_navtotestsalesdet_action : demosampleapp_actions_testactionformeterreading_navtotestsalesdet_action,
 	demosampleapp_actions_updatecustomerentityfailuremessage_action : demosampleapp_actions_updatecustomerentityfailuremessage_action,
 	demosampleapp_actions_validationfailure_action : demosampleapp_actions_validationfailure_action,
 	demosampleapp_globals_appdefinition_version_global : demosampleapp_globals_appdefinition_version_global,
@@ -232,6 +237,7 @@ module.exports = {
 	demosampleapp_pages_testpagesformeterreading_meterreadingtemplate2_page : demosampleapp_pages_testpagesformeterreading_meterreadingtemplate2_page,
 	demosampleapp_pages_testpagesformeterreading_meterreadingtemplate_page : demosampleapp_pages_testpagesformeterreading_meterreadingtemplate_page,
 	demosampleapp_pages_testpagesformeterreading_salesitemfinal_page : demosampleapp_pages_testpagesformeterreading_salesitemfinal_page,
+	demosampleapp_pages_testpagesformeterreading_salesorderdetnew_page : demosampleapp_pages_testpagesformeterreading_salesorderdetnew_page,
 	demosampleapp_pages_testpagesformeterreading_salesordernew_page : demosampleapp_pages_testpagesformeterreading_salesordernew_page,
 	demosampleapp_pages_testpagesformeterreading_ttmeterreadingflexible_page : demosampleapp_pages_testpagesformeterreading_ttmeterreadingflexible_page,
 	demosampleapp_rules_appupdatefailure_js : demosampleapp_rules_appupdatefailure_js,
@@ -256,6 +262,7 @@ module.exports = {
 	demosampleapp_rules_testformetereading_fiblankpagemetadata_js : demosampleapp_rules_testformetereading_fiblankpagemetadata_js,
 	demosampleapp_rules_testformetereading_fillsalesorderdetailtarget_js : demosampleapp_rules_testformetereading_fillsalesorderdetailtarget_js,
 	demosampleapp_rules_testformetereading_filltestcustomer_js : demosampleapp_rules_testformetereading_filltestcustomer_js,
+	demosampleapp_rules_testformetereading_metadatacheckdetail_js : demosampleapp_rules_testformetereading_metadatacheckdetail_js,
 	demosampleapp_rules_testformetereading_navtosalesorder_js : demosampleapp_rules_testformetereading_navtosalesorder_js,
 	demosampleapp_rules_testformetereading_pagemetadatanavblank2_js : demosampleapp_rules_testformetereading_pagemetadatanavblank2_js,
 	demosampleapp_rules_testformetereading_readlinkfiller_js : demosampleapp_rules_testformetereading_readlinkfiller_js,
@@ -263,6 +270,7 @@ module.exports = {
 	demosampleapp_rules_testformetereading_testcallnavtocustomerdetail_js : demosampleapp_rules_testformetereading_testcallnavtocustomerdetail_js,
 	demosampleapp_rules_testformetereading_testmoreparameter_js : demosampleapp_rules_testformetereading_testmoreparameter_js,
 	demosampleapp_rules_testformetereading_testrulecustomlist_js : demosampleapp_rules_testformetereading_testrulecustomlist_js,
+	demosampleapp_rules_testformetereading_trytofillsectiontarget_js : demosampleapp_rules_testformetereading_trytofillsectiontarget_js,
 	demosampleapp_rules_testsortermanipluation_js : demosampleapp_rules_testsortermanipluation_js,
 	demosampleapp_services_sampleservicev2_service : demosampleapp_services_sampleservicev2_service,
 	demosampleapp_styles_styles_css : demosampleapp_styles_styles_css,
@@ -974,6 +982,27 @@ function FillTestCustomer(clientAPI) {
 
 /***/ }),
 
+/***/ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/MetadatacheckDetail.js":
+/*!*****************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Rules/TestForMetereading/MetadatacheckDetail.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ MetadatacheckDetail)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+function MetadatacheckDetail(clientAPI) {
+  let binding = clientAPI.getActionBinding();
+}
+
+/***/ }),
+
 /***/ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/NavToSalesOrder.js":
 /*!*************************************************************************************!*\
   !*** ./build.definitions/DemoSampleApp/Rules/TestForMetereading/NavToSalesOrder.js ***!
@@ -994,7 +1023,7 @@ function NavToSalesOrder(clientAPI) {
   let itemKey = clientAPI.getPageProxy().getPressedItem()._controlView.offsetParent.offsetParent.childNodes[0].childNodes[0].ownerElement._state.placeholder;
   let filtered = clientAPI.binding.SalesOrders.filter(row => row.SalesOrderId == itemKey);
   clientAPI.getPageProxy().setActionBinding(filtered);
-  clientAPI.executeAction('/DemoSampleApp/Actions/TestActionForMeterReading/NavToSalesNew.action');
+  clientAPI.executeAction('/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestSalesDet.action');
 }
 
 /***/ }),
@@ -1156,6 +1185,27 @@ __webpack_require__.r(__webpack_exports__);
  */
 function TestRuleCustomList(clientAPI) {
   let dummy = 'DUMMY';
+}
+
+/***/ }),
+
+/***/ "./build.definitions/DemoSampleApp/Rules/TestForMetereading/TryToFillSectionTarget.js":
+/*!********************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Rules/TestForMetereading/TryToFillSectionTarget.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ TryToFillSectionTarget)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+function TryToFillSectionTarget(clientAPI) {
+  let binding = clientAPI.binding;
 }
 
 /***/ }),
@@ -2083,6 +2133,16 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 
 /***/ }),
 
+/***/ "./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestSalesDet.action":
+/*!****************************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Actions/TestActionForMeterReading/NavToTestSalesDet.action ***!
+  \****************************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToTestSalesDet"},"PageToOpen":"/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page","PageMetadata":"/DemoSampleApp/Rules/TestForMetereading/MetadatacheckDetail.js"}
+
+/***/ }),
+
 /***/ "./build.definitions/DemoSampleApp/Actions/UpdateCustomerEntityFailureMessage.action":
 /*!*******************************************************************************************!*\
   !*** ./build.definitions/DemoSampleApp/Actions/UpdateCustomerEntityFailureMessage.action ***!
@@ -2310,6 +2370,16 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
 /***/ ((module) => {
 
 module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.SimplePropertyCollection","Target":{"Service":"/DemoSampleApp/Services/SampleServiceV2.service","EntitySet":"SalesOrderItems","QueryOptions":"$filter=SalesOrderId eq '{SalesOrderId}'"},"_Name":"SectionSimplePropertyCollection0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"SimplePropertyCell":{"KeyName":"{SalesOrderId}","Value":"{ItemNumber}","AccessoryType":"DisclosureIndicator"},"Layout":{"NumberOfColumns":1}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"SalesItemFInal","Caption":"SalesItemFInal","PrefersLargeCaption":true}
+
+/***/ }),
+
+/***/ "./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page":
+/*!**********************************************************************************************!*\
+  !*** ./build.definitions/DemoSampleApp/Pages/TestPagesForMeterReading/SalesOrderDetNew.page ***!
+  \**********************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","Target":"/DemoSampleApp/Rules/TestForMetereading/TryToFillSectionTarget.js","_Name":"SectionedTable0","Section":{"_Type":"Section.Type.KeyValue","Target":"/DemoSampleApp/Rules/TestForMetereading/TryToFillSectionTarget.js","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"Value","_Name":"KeyValue0","KeyName":"KeyName","Visible":true}],"MaxItemCount":1,"Layout":{"NumberOfColumns":1}}}],"_Type":"Page","_Name":"SalesOrderDetNew","Caption":"SalesOrderDetNew","PrefersLargeCaption":true}
 
 /***/ }),
 
